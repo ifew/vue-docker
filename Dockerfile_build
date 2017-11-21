@@ -1,0 +1,5 @@
+FROM node:8.9.1-alpine
+ENV NODE_ENV=development
+WORKDIR /frontend/src/
+ENTRYPOINT ["npm"]
+CMD ["install"]
