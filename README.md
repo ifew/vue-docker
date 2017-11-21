@@ -1,8 +1,10 @@
-# my-first-vue
+# Vue-Docker
 
 > A Vue.js project
 
 ## Build Setup
+
+use Makefile or below this...
 
 ``` bash
 # install dependencies

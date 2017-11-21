@@ -1,6 +1,6 @@
 image-dev:
 	docker image build -f Dockerfile_build -t web_dev .
-inst-dev:
+install-dev:
 	docker container run -it -p 5000:8080 --rm -v $(PWD):/frontend/src -t web_dev
 run-dev:
 	docker container run -it -p 5000:8080 --rm -v $(PWD):/frontend/src -t web_dev run dev
